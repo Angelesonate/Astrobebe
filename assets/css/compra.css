@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Merienda');
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-size: contain;
+}
+
+.opacity {
+    background: rgba(178, 97, 131, .27);
+    padding-top: 20px;
+}
+
+main {
+    flex: 1;
+}
+
+.form {
+    padding-top: 30px
+}
+
+#mensajeExito {
+    background: #5b2573;
+    color: #fff;
+    text-align: center;
+}
+
+#mensajeError {
+    text-align: center;
+}
+
+.form input {
+    background: rgba(255, 255, 255, .6);
+    border: 2px solid #fff;
+    line-height: 2;
+}
+
+ ::placeholder {
+    color: #000!important;
+}
+
+.form-control:focus {
+    background: none;
+    border-color: #5b2573;
+    box-shadow: none;
+}
+
+.styled-radiobutton [type=radio] {
+    display: none;
+}
+
+.styled-radiobutton {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.styled-radiobutton .rbutton {
+    position: relative;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+}
+
+.styled-radio-group label,
+.styled-checkbox-group label {
+    float: left;
+    margin-bottom: 0px !important;
+    margin-right: 10px;
+}
+
+.styled-radiobutton [type=radio]:checked+label:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    right: 4px;
+    border-radius: 30px;
+    background: #5b2573;
+}
+
+label.text {
+    font-size: 1.1rem;
+    position: relative;
+    top: -10px;
+    margin-right: 20px;
+    color: #000;
+    left: 10px
+}
+
+label.inicial {
+    font-size: 1.5em;
+    color: #000
+}
+
+.form .btn {
+    background: #5b2573;
+    color: #fff;
+    width: auto;
+    padding: 5px 20px;
+    font-size: 22px;
+}
+
+.content h1 {
+    color: #5b2573;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 3em;
+}
+
+.content h6 {
+    font-family: 'Merienda', cursive;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.content h5 {
+    font-family: 'Merienda', cursive;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 40px;
+}
+
+.content h5 a {
+    color: #fff;
+}
+
+.content h5 a:hover {
+    color: #5b2573;
+    text-decoration: none;
+}
+
+footer {
+    background: #5b2573;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h6 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.nav-link {
+    padding: .5rem .6rem;
+}
+
+footer .nav-item a {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+footer ul li a {
+    text-align: center;
+}

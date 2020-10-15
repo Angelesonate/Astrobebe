@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Merienda');
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+header {
+    background-color: #c0dfe4;
+    overflow: hidden;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5.8em;
+    color: #5b2573;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    letter-spacing: 10px
+}
+
+header .img1 img {
+    width: 85%;
+}
+
+header .img2 img {
+    width: 75%;
+}
+
+.st-1 {
+    margin-top: 30px;
+}
+
+.st-1 p {
+    line-height: 1.7em;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: justify;
+    color: #666;
+    font-weight: 500;
+}
+
+.st-2 {
+    margin-top: 50px;
+    background-image: linear-gradient(180deg, #f6f5f5 0%, #eaeaea 100%);
+    padding: 40px;
+}
+
+.second-title {
+    text-align: center;
+    color: #5b2573;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    font-family: 'Merienda', cursive;
+}
+
+.st-2 img {
+    width: 80%;
+}
+
+.st-2 .textcontainer {
+    line-height: 1.7em;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: justify;
+    color: #666;
+    font-weight: 500;
+}
+
+.st-3 {
+    background-color: #dbceac;
+    padding: 40px;
+}
+
+.center {
+    margin-bottom: 20px
+}
+
+.firstimg {
+    margin-bottom: 20px;
+}
+
+.firstimg img {
+    width: 65%;
+}
+
+.st-3 p {
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 1.2em;
+    color: #666;
+    font-weight: 500;
+}
+
+.testimonials {
+    padding-top: 40px;
+}
+
+.testimonials span {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #5b2573;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    color: #5b2573;
+    position: relative;
+    left: 45%;
+    margin-bottom: 20px;
+}
+
+.testimonials p {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    color: #666;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+}
+
+.faqs button {
+    color: #666;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: none;
+    background: none;
+    line-height: 1.7em;
+}
+
+.faqs button:hover {
+    text-decoration: none;
+    color: #5b2573;
+}
+
+.faqs button:active {
+    text-decoration: none;
+}
+
+.faqs .card {
+    border: none;
+}
+
+.faqs .card-header {
+    background: none;
+}
+
+.faqs .card-body {
+    border-top: 2px solid #5b2573
+}
+
+.faqs .card-body p {
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.7em;
+    color: #666;
+    font-weight: 500;
+}
+
+.faqs .card-body p a {
+    color: #5b2573;
+    text-decoration: none;
+}
+
+.faqs .card-body p a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.form {
+    background-image: url(../img/baby.jpg);
+    background-size: cover;
+}
+
+#mensajeExito {
+    background: #5b2573;
+    color: #fff;
+    text-align: center;
+}
+
+#mensajeError {
+    text-align: center;
+}
+
+.opacity {
+    background: rgba(178, 97, 131, .27);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.form h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Merienda', cursive;
+}
+
+.form input,
+.form textarea {
+    background: none;
+    border: 2px solid #fff;
+    line-height: 2;
+}
+
+::placeholder {
+    color: #fff!important;
+}
+
+.form textarea {
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.form-control:focus {
+    background: none;
+    border-color: #5b2573;
+    box-shadow: none;
+}
+
+.form .btn {
+    background: #5b2573;
+    color: #fff;
+    width: auto;
+    padding: 5px 20px;
+    font-size: 22px;
+}
+
+.form h3,
+.form h6 {
+    color: #5b2573;
+    font-family: 'Merienda', cursive;
+}
+
+.paypalcontainer {
+    background: rgba(255, 255, 255, .2);
+}
+
+.paypalcontainer h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 1.8em;
+}
+
+.paypalcontainer input {
+    border: none;
+    margin: auto;
+    display: block;
+    width: 40%;
+}
+
+footer {
+    background: #5b2573;
+    padding: 20px;
+}
+
+footer h6 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.nav-link {
+    padding: .5rem .6rem;
+}
+
+footer .nav-item a {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+footer ul li a {
+    text-align: center;
+}
+
+@media (max-width:1499px) {
+    header h1 {
+        font-size: 4.2em;
+    }
+}
+
+@media (max-width:1160px) and (min-width:1024px) {
+    header h1 {
+        font-size: 3.5em;
+    }
+}
+
+@media (max-width:1024px) {
+    header h1 {
+        font-size: 2.3em;
+    }
+    .st-1 p {
+        font-size: 1em;
+    }
+    .second-title {
+        font-size: 1.6em;
+    }
+    .st-2 .textcontainer {
+        line-height: 1.6em;
+        font-size: 1.1em;
+    }
+    .st-3 p {
+        font-size: 1.1em;
+        line-height: 1.5em;
+    }
+    .testimonials p {
+        font-size: 1em;
+    }
+    .form h2 {
+        font-size: 1.3em;
+        line-height: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    header h1 {
+        font-size: 3.3em;
+    }
+    header .img1 {
+        display: none;
+    }
+    header .img2 {
+        display: none;
+    }
+    .st-1 p {
+        font-size: 1.2em;
+    }
+    .st-1 img {
+        margin-bottom: 20px;
+    }
+    .st-2 .textcontainer {
+        font-size: 1.2em;
+    }
+    .st-3 p {
+        font-size: 1.2em;
+    }
+    .testimonials p {
+        font-size: 1.2em;
+    }
+    .firstimg {
+        display: none;
+    }
+    .form h2 {
+        font-size: 1.1em;
+    }
+    .form p {
+        font-size: 1.1em;
+    }
+    footer ul li a {
+        text-align: center;
+    }
+}
+
+@media(max-width:480px) {
+    header h1 {
+        font-size: 3em;
+    }
+}

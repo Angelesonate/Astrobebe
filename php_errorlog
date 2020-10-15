@@ -1,0 +1,6 @@
+[09-May-2019 20:42:52 CST6CDT] PHP Parse error:  syntax error, unexpected '}' in /home/vivirviv/astrobebe.net/form2.php on line 17
+[09-May-2019 20:47:21 CST6CDT] PHP Notice:  Undefined variable: name in /home/vivirviv/astrobebe.net/form2.php on line 64
+[09-May-2019 20:47:21 CST6CDT] PHP Notice:  Undefined variable: email in /home/vivirviv/astrobebe.net/form2.php on line 65
+[09-May-2019 20:47:21 CST6CDT] PHP Notice:  Undefined variable: name in /home/vivirviv/astrobebe.net/form2.php on line 76
+[11-May-2019 09:11:47 CST6CDT] PHP Fatal error:  require(): Failed opening required 'mailer/PHPMailerAutoload.php' (include_path='.:/usr/local/php71/pear') in /home/vivirviv/astrobebe.net/form2.php on line 2
+[11-May-2019 09:11:47 CST6CDT] PHP Fatal error:  require(): Failed opening required 'mailer/PHPMailerAutoload.php' (include_path='.:/usr/local/php71/pear') in /home/vivirviv/astrobebe.net/form2.php on line 2
